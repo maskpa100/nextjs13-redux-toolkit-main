@@ -11,7 +11,9 @@ export default function Home() {
   const [w, setW] = useState(0);
   if (w === 0) {
     
+    dispatch(reset());
     dispatch(increment());
+    setW(1);
     
   }
   return (
