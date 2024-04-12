@@ -10,8 +10,9 @@ export default function Home() {
   const dispatch = useAppDispatch();
   const [w, setW] = useState(0);
   if (w === 0) {
-    setW(1);
+    
     dispatch(increment());
+    setW(1);
   }
   return (
     <main style={{ maxWidth: 1200, marginInline: "auto", padding: 20 }}>
