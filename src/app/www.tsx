@@ -12,7 +12,7 @@ export default function Home() {
   if (w === 0) {
     
     dispatch(increment());
-    setW(1);
+    
   }
   return (
     <main style={{ maxWidth: 1200, marginInline: "auto", padding: 20 }}>
